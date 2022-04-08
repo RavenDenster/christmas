@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>christmas</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css?_v=20220407212048">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo">Christmas</a>
+				<div class="header__main-block">
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a data-goto-header data-goto=".home" href="#" class="menu__link">home</a></li>
+								<li class="menu__item"><a data-goto-header data-goto=".about" href="#" class="menu__link">about</a></li>
+								<li class="menu__item"><a data-goto-header data-goto=".products" href="#" class="menu__link">products</a></li>
+								<li class="menu__item"><a data-goto-header data-goto=".service" href="#" class="menu__link">services</a></li>
+								<li class="menu__item"><a data-goto-header data-goto=".gallery" href="#" class="menu__link">gallery</a></li>
+								<li class="menu__item"><a data-goto-header data-goto=".contact" href="#" class="menu__link">contacts</a></li>
+								<li class="menu__item"><a data-goto-header data-goto=".blogs" href="#" class="menu__link">blogs</a></li>
+							</ul>
+						</nav>
+					</div>
+
+					<div class="header__icons">
+						<div class="header__search fas fa-search"></div>
+						<a href="#" class="header__heart fas fa-heart"></a>
+
+
+						<a class="header__cart cart active header__show fas fa-shopping-cart" tabindex="0">
+
+							<span class="cart__quantity">0</span>
+
+							<div class="cart-content">
+								<ul class="cart-content__list" data-simplebar>
+
+									<!-- <li class="cart-content__item">
+								<article class="cart-content__product cart-product">
+									<picture><source srcset="img/product-1.webp" type="image/webp"><img src="img/product-1.png" alt="" class="cart-product__img"></picture>
+									<div class="cart-product__text">
+										<h3 class="cart-product__title">Christmas Decor</h3>
+										<span class="cart-product__price">30 $</span>
+									</div>
+									<button class="cart-product__delete" aria-label="Удалить товар"></button>
+								</article>
+							</li> -->
+
+								</ul>
+								<div class="cart-content__bottom">
+									<div class="cart-content__fullprice">
+										<span>Итого:</span>
+										<span class="fullprice">0 $</span>
+									</div>
+									<div class="cart-content__btn btn">Перейти в корзину</div>
+								</div>
+							</div>
+						</a>
+
+					</div>
+					<form class="header__form" action="#">
+						<input id="search-box" autocomplete="off" type="search" name="form[]" data-error="Ошибка" placeholder="search here..." class="header__search-input">
+						<label for="search-box" class="fas fa-search"></label>
+
+					</form>
+				</div>
+			</div>
+
+		</header>
+		<main class="page">
+
+			<section class="home">
+
+				<div class="home__content">
+					<p>we wish you a</p>
+					<h3>merry christmas</h3>
+				</div>
+
+				<picture><source type="image/webp"><img src="img/trees.png" class="home__tree" alt=""></picture>
+				<picture><source type="image/webp"><img src="img/mountains.png" class="home__mountain" alt=""></picture>
+				<picture><source type="image/webp"><img src="img/moon.png" class="home__moon" alt=""></picture>
+				<picture><source type="image/webp"><img src="img/cloud.png" class="home__cloud-1" alt=""></picture>
+				<picture><source type="image/webp"><img src="img/cloud.png" class="home__cloud-2" alt=""></picture>
+
+			</section>
+
+			<section data-watch-threshold="0.6" data-watch="navigator" class="about">
+				<div class="about__container">
+					<div data-watch class="about__img">
+						<picture><source srcset="img/about-img.webp" type="image/webp"><img src="img/about-img.png" alt=""></picture>
+					</div>
+					<div data-watch class="about__contant">
+						<div class="about__subtitle">why choose us?</div>
+						<div class="about__title">celebrate your christmas with us</div>
+						<div class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
+							omnis magnam, labore quidem assumenda unde aliquam quasi ipsa? Saepe voluptatum, magnam
+							mollitia aperiam laborum eaque in nam eos reiciendis corporis!</div>
+						<a href="#" class="about__btn">read more</a>
+					</div>
+				</div>
+			</section>
+
+			<section data-watch-threshold="0.6" data-watch="navigator" class="products">
+				<div class="products__container">
+					<h2 class="products__title title">our <span>products</span></h2>
+
+					<div class="products__collage">
+
+						<article data-watch class="products__card card card_1">
+
+							<div class="card__body">
+								<div class="card__img">
+									<picture><source srcset="img/product-1.webp" type="image/webp"><img src="img/product-1.png" alt=""></picture>
+									<div class="card__icons">
+										<a href="#" class="product-shop-btn fas fa-shopping-cart"></a>
+										<a href="#" class="fas fa-heart"></a>
+										<a href="#" class="fas fa-search"></a>
+									</div>
+								</div>
+								<div class="card__content content-card">
+									<div class="content-card__stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star-half-alt"></i>
+									</div>
+									<h3 class="content-card__title">New Year's Ball</h3>
+									<div class="content-card__price">
+										<div class="content-card__current-price">3.99$</div>
+										<div class="content-card__old-price">4.99$</div>
+									</div>
+								</div>
+
+							</div>
+						</article>
+
+						<article data-watch class="products__card card card_2">
+							<div class="card__body">
+								<div class="card__img">
+									<picture><source srcset="img/product-2.webp" type="image/webp"><img src="img/product-2.png" alt=""></picture>
+									<div class="card__icons">
+										<a href="#" class="product-shop-btn fas fa-shopping-cart"></a>
+										<a href="#" class="fas fa-heart"></a>
+										<a href="#" class="fas fa-search"></a>
+									</div>
+								</div>
+								<div class="card__content content-card">
+									<div class="content-card__stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star-half-alt"></i>
+									</div>
+									<h3 class="content-card__title">Deer</h3>
+									<div class="content-card__price">
+										<div class="content-card__current-price">5.99$</div>
+										<div class="content-card__old-price">6.99$</div>
+									</div>
+								</div>
+
+							</div>
+						</article>
+
+						<article data-watch class="products__card card card_3">
+							<div class="card__body">
+								<div class="card__img">
+									<picture><source srcset="img/product-3.webp" type="image/webp"><img src="img/product-3.png" alt=""></picture>
+									<div class="card__icons">
+										<a href="#" class="product-shop-btn fas fa-shopping-cart"></a>
+										<a href="#" class="fas fa-heart"></a>
+										<a href="#" class="fas fa-search"></a>
+									</div>
+								</div>
+								<div class="card__content content-card">
+									<div class="content-card__stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star-half-alt"></i>
+									</div>
+									<h3 class="content-card__title">Funko POP</h3>
+									<div class="content-card__price">
+										<div class="content-card__current-price">8.99$</div>
+										<div class="content-card__old-price">10.99$</div>
+									</div>
+								</div>
+
+							</div>
+						</article>
+
+						<article data-watch class="products__card card card_4">
+							<div class="card__body">
+								<div class="card__img">
+									<picture><source srcset="img/product-4.webp" type="image/webp"><img src="img/product-4.png" alt=""></picture>
+									<div class="card__icons">
+										<a href="#" class="product-shop-btn fas fa-shopping-cart"></a>
+										<a href="#" class="fas fa-heart"></a>
+										<a href="#" class="fas fa-search"></a>
+									</div>
+								</div>
+								<div class="card__content content-card">
+									<div class="content-card__stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star-half-alt"></i>
+									</div>
+									<h3 class="content-card__title">Star</h3>
+									<div class="content-card__price">
+										<div class="content-card__current-price">5.99$</div>
+										<div class="content-card__old-price">6.99$</div>
+									</div>
+								</div>
+
+							</div>
+						</article>
+
+						<article data-watch class=" products__card card card_5">
+							<div class="card__body">
+								<div class="card__img">
+									<picture><source srcset="img/product-5.webp" type="image/webp"><img src="img/product-5.png" alt=""></picture>
+									<div class="card__icons">
+										<a href="#" class=" product-shop-btn fas fa-shopping-cart"></a>
+										<a href="#" class="fas fa-heart"></a>
+										<a href="#" class="fas fa-search"></a>
+									</div>
+								</div>
+								<div class="card__content content-card">
+									<div class="content-card__stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star-half-alt"></i>
+									</div>
+									<h3 class="content-card__title">Clothes</h3>
+									<div class="content-card__price">
+										<div class="content-card__current-price">15.99$</div>
+										<div class="content-card__old-price">17.99$</div>
+									</div>
+								</div>
+
+							</div>
+						</article>
+
+						<article data-watch class=" products__card card card_6">
+							<div class="card__body">
+								<div class="card__img">
+									<picture><source srcset="img/product-6.webp" type="image/webp"><img src="img/product-6.png" alt=""></picture>
+									<div class="card__icons">
+										<a href="#" class=" product-shop-btn fas fa-shopping-cart"></a>
+										<a href="#" class="fas fa-heart"></a>
+										<a href="#" class="fas fa-search"></a>
+									</div>
+								</div>
+								<div class="card__content content-card">
+									<div class="content-card__stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star-half-alt"></i>
+									</div>
+									<h3 class="content-card__title">Christmas Decor</h3>
+									<div class="content-card__price">
+										<div class="content-card__current-price">29.99$</div>
+										<div class="content-card__old-price">39.99$</div>
+									</div>
+								</div>
+
+							</div>
+						</article>
+
+					</div>
+				</div>
+			</section>
+
+			<section data-watch-threshold="0.6" data-watch="navigator" class="service">
+				<div class="service__container">
+					<h2 class="service__title title">OUR <span>SERVICES
+						</span></h2>
+
+					<div class="service__collage">
+						<article data-watch class="service__item item-service">
+							<i class="fas fa-tree"></i>
+							<h3 class="item-service__title">Christmas Tree</h3>
+							<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, doloribus!</p>
+						</article>
+
+						<article data-watch class="service__item item-service">
+							<i class="fas fa-cookie"></i>
+							<h3 class="item-service__title">Christmas Cookies</h3>
+							<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, doloribus!</p>
+						</article>
+
+						<article data-watch class="service__item item-service">
+							<i class="fas fa-snowman"></i>
+							<h3 class="item-service__title">Christmas snowman</h3>
+							<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, doloribus!</p>
+						</article>
+
+						<article data-watch class="service__item item-service">
+							<i class="fas fa-gifts""></i>
+								<h3 class=" item-service__title">Christmas gifts</h3>
+								<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, doloribus!</p>
+						</article>
+
+						<article data-watch class="service__item item-service">
+							<i class="fas fa-candy-cane"></i>
+							<h3 class="item-service__title">Christmas candy</h3>
+							<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, doloribus!</p>
+						</article>
+
+						<article data-watch class="service__item item-service">
+							<i class="fas fa-sleigh"></i>
+							<h3 class="item-service__title">Christmas sleight</h3>
+							<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, doloribus!</p>
+						</article>
+					</div>
+
+				</div>
+			</section>
+
+			<section data-watch-threshold="0.3" data-watch="navigator" class="gallery">
+				<div class="gallery__container">
+					<h2 class="gallery__title title">OUR <span>gallery</span></h2>
+					<div data-watch class="gallery__collage">
+						<picture><source srcset="img/g-img-1.webp" type="image/webp"><img src="img/g-img-1.jpg" alt=""></picture>
+						<picture><source srcset="img/g-img-2.webp" type="image/webp"><img src="img/g-img-2.jpg" alt=""></picture>
+						<picture><source srcset="img/g-img-3.webp" type="image/webp"><img src="img/g-img-3.jpg" alt=""></picture>
+						<picture><source srcset="img/g-img-4.webp" type="image/webp"><img src="img/g-img-4.jpg" alt=""></picture>
+						<picture><source srcset="img/g-img-5.webp" type="image/webp"><img src="img/g-img-5.jpg" alt=""></picture>
+						<picture><source srcset="img/g-img-6.webp" type="image/webp"><img src="img/g-img-6.jpg" alt=""></picture>
+						<picture><source srcset="img/g-img-7.webp" type="image/webp"><img src="img/g-img-7.jpg" alt=""></picture>
+						<picture><source srcset="img/g-img-8.webp" type="image/webp"><img src="img/g-img-8.jpg" alt=""></picture>
+						<picture><source srcset="img/g-img-9.webp" type="image/webp"><img src="img/g-img-9.jpg" alt=""></picture>
+					</div>
+				</div>
+			</section>
+
+			<section data-watch-threshold="0.6" data-watch="navigator" class="contact">
+				<div class="contact__container">
+					<form class="contact__form" data-ajax data-dev action="sendmail.php" method="get">
+						<h3>contact us</h3>
+						<input class="contact__input" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="full name" class="input" required>
+						<input data-required="email" class="contact__input" autocomplete="off" type="email" name="form[]" data-error="mail was entered incorrectly" placeholder="email" class="input" required>
+						<input class="contact__input art-stranger" id="phone" autocomplete="off" type="tel" name="form[]" data-error="Ошибка" placeholder="phone" class="input" required>
+						<textarea class="contact__textarea" placeholder="message" name="" id=""></textarea>
+						<button class="btn" type="submit">send now</button>
+					</form>
+				</div>
+			</section>
+
+			<section data-watch-threshold="0.6" data-watch="navigator" class="blogs">
+				<div class="blogs__container">
+					<h2 class="blogs__title title">our <span>blogs</span></h2>
+					<div class="blogs__collage">
+
+						<article data-watch class="blogs__item item-blogs item-blogs_1">
+							<div class="item-blogs__img">
+								<picture><source srcset="img/blog-1.webp" type="image/webp"><img src="img/blog-1.jpg" alt=""></picture>
+							</div>
+							<div class="item-blogs__content">
+								<h3 class="item-blogs__title">Blog Title Goes Here</h3>
+								<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, mollitia?</p>
+								<a href="#" class="item-blogs__btn btn">read more</a>
+								<div class="item-blogs__icons">
+									<a href="#"><i class="fas fa-calendar"></i>21st may, 2022</a>
+									<a href="#"><i class="fas fa-user"></i>by admin</a>
+								</div>
+							</div>
+
+						</article>
+
+						<article data-watch class="blogs__item item-blogs item-blogs_2">
+							<div class="item-blogs__img">
+								<picture><source srcset="img/blog-2.webp" type="image/webp"><img src="img/blog-2.jpg" alt=""></picture>
+							</div>
+							<div class="item-blogs__content">
+								<h3 class="item-blogs__title">Blog Title Goes Here</h3>
+								<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, mollitia?</p>
+								<a href="#" class="item-blogs__btn btn">read more</a>
+								<div class="item-blogs__icons">
+									<a href="#"><i class="fas fa-calendar"></i>21st may, 2022</a>
+									<a href="#"><i class="fas fa-user"></i>by admin</a>
+								</div>
+							</div>
+
+						</article>
+
+						<article data-watch class="blogs__item item-blogs item-blogs_3">
+							<div class="item-blogs__img">
+								<picture><source srcset="img/blog-3.webp" type="image/webp"><img src="img/blog-3.jpg" alt=""></picture>
+							</div>
+							<div class="item-blogs__content">
+								<h3 class="item-blogs__title">Blog Title Goes Here</h3>
+								<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, mollitia?</p>
+								<a href="#" class="item-blogs__btn btn">read more</a>
+								<div class="item-blogs__icons">
+									<a href="#"><i class="fas fa-calendar"></i>21st may, 2022</a>
+									<a href="#"><i class="fas fa-user"></i>by admin</a>
+								</div>
+							</div>
+
+						</article>
+
+					</div>
+				</div>
+			</section>
+
+
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+
+				<div class="footer__box">
+					<h3>Quick Links</h3>
+					<a class="footer__link" href="#"><i class="fas fa-angle-right"></i> home</a>
+					<a class="footer__link" href="#"><i class="fas fa-angle-right"></i> about</a>
+					<a class="footer__link" href="#"><i class="fas fa-angle-right"></i> products</a>
+					<a class="footer__link" href="#"><i class="fas fa-angle-right"></i> services</a>
+					<a class="footer__link" href="#"><i class="fas fa-angle-right"></i> gallery</a>
+					<a class="footer__link" href="#"><i class="fas fa-angle-right"></i> contacts</a>
+					<a class="footer__link" href="#"><i class="fas fa-angle-right"></i> blogs</a>
+				</div>
+
+				<div class="footer__box">
+					<h3>Extra Links</h3>
+					<a class="footer__link" href="#"><i class="fas fa-angle-right"></i> my order</a>
+					<a class="footer__link" href="#"><i class="fas fa-angle-right"></i> my wishlist</a>
+					<a class="footer__link" href="#"><i class="fas fa-angle-right"></i> my favorite</a>
+					<a class="footer__link" href="#"><i class="fas fa-angle-right"></i> terms or use</a>
+					<a class="footer__link" href="#"><i class="fas fa-angle-right"></i> privacy policy</a>
+				</div>
+
+				<div class="footer__box">
+					<h3>Contact Info</h3>
+					<a class="footer__link" href="#"><i class="fas fa-phone"></i> +123-456-7890</a>
+					<a class="footer__link" href="#"><i class="fas fa-phone"></i> +111-222-3333</a>
+					<a class="footer__link" href="#"><i class="fas fa-envelope"></i> shaikhanas@gmail.com</a>
+					<a class="footer__link" href="#"><i class="fas fa-envelope"></i> anasbhai@gmail.com</a>
+					<a class="footer__link" href="#"><i class="fas fa-map"></i> mumbai, india - 400104</a>
+				</div>
+
+				<div class="footer__box">
+					<h3>Newsletter</h3>
+					<form class="footer__form" action="#">
+						<input autocomplete="off" type="email" name="form[]" data-error="Ошибка" placeholder="enter your email" class="footer__input">
+						<button type="submit" class="footer__btn btn">subscribe</button>
+					</form>
+					<div class="footer__icons">
+						<a href="#" class="fab fa-facebook-f"></a>
+						<a href="#" class="fab fa-twitter"></a>
+						<a href="#" class="fab fa-instagram"></a>
+						<a href="#" class="fab fa-linkedin"></a>
+					</div>
+				</div>
+
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20220407212048"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js?_v=20220407212048"></script>
+	<script src="js/libs/jquery.inputmask.min.js?_v=20220407212048"></script>
+	<script>
+		$(document).ready(function() {
+			$("#phone").mask("+7 (999) 99-99-999");
+		});
+	</script>
+</body>
+
+</html>
