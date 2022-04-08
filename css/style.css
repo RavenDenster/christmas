@@ -2027,10 +2027,13 @@ html.menu-open .menu__body {
   }
 }
 
-@media (max-width: 50.1875em) {
-  .footer__container {
-    padding: 50px 30px;
+ @media (max-width: 50.1875em) {
+  .footer__box:first-child{
+      margin-top: 30px;      
   }
+  .footer__box:last-child{
+    margin-bottom: 30px;      
+}
 }
 
 @media (max-width: 47.99875em) {
