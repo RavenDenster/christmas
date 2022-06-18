@@ -1862,9 +1862,14 @@ html.menu-open .menu__body {
     transition: top 0.8s ease, opacity 0.3s;
   }
 
-  .menu__body.active-opac {
+/*   .menu__body.active-opac {
     opacity: 1;
-  }
+  } */
+  
+  html.menu-open .menu__body {
+  top: 0;
+  opacity: 1;
+}
 
   .menu__body::after {
     content: "";
